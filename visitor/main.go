@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"./parser"
 	"github.com/antlr/antlr4/runtime/Go/antlr"
 	prompt "github.com/c-bata/go-prompt"
+	parser "github.com/thesues/antlr-calc-golang-example/visitorparser"
 )
 
 type Visitor struct {
