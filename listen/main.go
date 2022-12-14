@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"./parser"
 	"github.com/antlr/antlr4/runtime/Go/antlr"
 	"github.com/c-bata/go-prompt"
+	parser "github.com/thesues/antlr-calc-golang-example/listenparser"
 )
 
 type calcListener struct {
@@ -107,4 +107,3 @@ func main() {
 	)
 	p.Run()
 }
-
